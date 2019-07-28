@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 85%;
+  background: #ff1e1e;
+  margin: 0 auto;
+
+  header{
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+  }
+
+  .routes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .pokemon{
+      padding: 50px;
+      border: 1px solid red;
+      border-radius: 50%;
+      width: 100px;
+      text-align: center;
+      margin: 25px 0;
+
+      h3{
+        width: 100%;
+        background: whitesmoke;
+        border-radius: 15px;
+      }
+    }
+
+    form{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

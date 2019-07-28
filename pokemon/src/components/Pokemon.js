@@ -2,8 +2,8 @@ import React from 'react'
 
 const Pokemon = props => {
     return (
-        <div>
-            <h1>{props.poke.name}</h1>
+        <div className='pokemon'>
+            <h3>{props.poke.name}</h3>
         </div>
     )
 }

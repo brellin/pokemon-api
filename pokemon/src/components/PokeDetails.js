@@ -16,6 +16,7 @@ const PokeDetails = props => {
     return (
         <div>
             <h1>{pokemon.name}</h1>
+            {pokemon.moves && pokemon.moves.map(move => (<div><h3>{move.move.name}</h3></div>))}
         </div>
     )
 }
